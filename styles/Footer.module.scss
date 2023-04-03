@@ -1,0 +1,77 @@
+@import "./variables";
+
+.footer {
+  width: 100%;
+  background-color: $about-bg;
+  color: $about-text;
+  font-size: 12px;
+  padding: 2rem 1.5rem;
+
+  p {
+    line-height: 1rem;
+  }
+
+  a {
+    color: $noti-button;
+    text-decoration: underline;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 2rem $nav-x-padding;
+  }
+}
+
+.breadcrumb {
+  @include center($justify: flex-start);
+  margin: 20px 0;
+}
+
+.breadcrumb span {
+  padding-left: 25px;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+
+  span {
+    display: block;
+    color: $noti-bg;
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+
+  @media (min-width: 1024px) {
+    @include grid($itemsCount: 5, $align: flex-start, $justify: space-between);
+  }
+}
+
+.cr {
+  @media (min-width: 1024px) {
+    @include center($justify: space-between);
+  }
+}
+
+.us {
+  @include center($justify: flex-start);
+  padding: 1rem 0;
+
+  @media (min-width: 1024px) {
+    padding: 0;
+  }
+}
+
+.vl {
+  border-left: 1px solid $noti-bg;
+  height: 15px;
+  margin: 0 10px;
+}
+
+.us > div {
+  @include center;
+}

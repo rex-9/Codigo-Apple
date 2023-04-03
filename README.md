@@ -45,7 +45,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://codigo-apple.app/)
+- [Live Demo Link](https://codigo-apple.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
